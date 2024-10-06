@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#about">About </a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button type="submit"  id="download-btn">Download PDF</button></li>
+            </ul>           
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+<h2>Welcome Potential Employer</h2>
+<div class="image">
+    <img src="male.png" alt="No Image Found">
+</div>
+<p style="color: black;">My name is Chiagoziem Collins</p>
+
+<p style="color: black;">I am a hardworking individual, who believes in putting in his extreme best in what i do. I have good communication skills, time management skills and presentation  skills.</p>
+<quote><i>"Learn from yesterday, live for today, hope for tomorrow"</i></quote>    
+</section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <p>I am currently enrolled at the university of Limpopo, Turfloop Campus, Purusing a Bachelor's 
+            degree in Mathematics and Computer Science.</p>
+<br>
+        <ul class="modules">
+            <h2 style="text-align: center;">Modules</h2>
+            <ol>Statistics</ol>
+            <ol>Health</ol>
+            <ol>Integral Calculus</ol>
+            <ol></ol>
+        </ul>
+        
+     </section>
+
+
+     <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <ol>C++</ol>
+            <ol>HTML</ol>
+            <ol>Engineering Graphics & Design</ol>
+            <ol>Graphics Designing</ol>
+            <ol>Time Management skills</ol>
+            <ol>Computer Literate</ol>
+            <ol>Good  Communication skills</ol>
+            <ol>Problem Solving skills</ol>
+            </ul>
+     </section>
+
+     
+     <section id="contact" class="contact">
+        <h2>If you would like to reach out to me, kindly contact me on the following information below</h2> 
+        <p> Cell phone: 073 485 4236</p>
+        <p>Email Address: chiacacollins@gmail.com</p>
+
+        <h4>If you would like me to contact you, kindly fill your details on the form below</h4>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name and Surname</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name and surname">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" >
+            </div>
+
+            <div class="form-group">
+                <label for="cellphone">Cellphone Number</label>
+                <input type="tel" id="cellphone" name="cellphone" placeholder="Enter your cellphone number" >
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+</section>
+<footer>
+    Designed by Chiagoziem Collins
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+    <script src="page.js"></script>
+</body>
+
+</html>
